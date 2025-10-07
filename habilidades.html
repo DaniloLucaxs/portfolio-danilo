@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minhas Habilidades - Danilo Lucas</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Ionicons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+
+  <body>
+    <div id="container">
+      <!-- PROFILE -->
+      <div id="profile" class="page-header">
+        <img src="./assets/avatar.png" alt="Foto de Danilo Lucas" />
+        <h1>Minhas Habilidades</h1>
+      </div>
+
+      <!-- SWITCH BUTTON -->
+      <div id="switch">
+        <button></button>
+        <span></span>
+      </div>
+
+      <!-- NAVIGATION -->
+      <nav class="page-nav">
+        <ul>
+          <li><a href="./index.html">⬅ Voltar para Links</a></li>
+          <li><a href="./sobremim.html">Sobre Mim</a></li>
+        </ul>
+      </nav>
+
+      <!-- SKILLS TOGGLE BUTTONS -->
+      <div class="skills-buttons">
+        <button id="btn-hard" class="active" onclick="showSkills('hard')">
+          💻 Hard Skills
+        </button>
+        <button id="btn-soft" onclick="showSkills('soft')">
+          🧠 Soft Skills
+        </button>
+      </div>
+
+      <!-- HARD SKILLS -->
+      <div id="hard-skills" class="skills-content active">
+        <h2>Hard Skills</h2>
+        <div class="skills-icons">
+          <img src="./assets/html5.svg" alt="HTML5" title="HTML5" />
+          <img src="./assets/css3.svg" alt="CSS3" title="CSS3" />
+          <img
+            src="./assets/javascript.svg"
+            alt="JavaScript"
+            title="JavaScript"
+          />
+          <img src="./assets/python.svg" alt="Python" title="Python" />
+          <img src="./assets/sql.svg" alt="SQL" title="SQL" />
+        </div>
+        <p>
+          Tenho conhecimentos em pacote Office intermediário, rotinas
+          administrativas e atendimento ao público. Experiência com
+          desenvolvimento web (HTML, CSS, JS), programação em Python e
+          bibliotecas de análise de dados como <strong>Pandas</strong> e
+          <strong>NumPy</strong>, além de SQL para consultas e integração de
+          dados.
+        </p>
+      </div>
+
+      <!-- SOFT SKILLS -->
+      <div id="soft-skills" class="skills-content">
+        <h2>Soft Skills</h2>
+        <ul class="skills-list">
+          <li>
+            🎯 <strong>Resolução de Problemas:</strong> soluções criativas e
+            práticas.
+          </li>
+          <li>
+            🔄 <strong>Adaptabilidade:</strong> me ajusto rápido a mudanças.
+          </li>
+          <li>
+            🔥 <strong>Trabalho sob Pressão:</strong> mantenho qualidade com
+            prazos curtos.
+          </li>
+          <li>
+            🤝 <strong>Comunicação e Trabalho em Equipe:</strong> colaborativo e
+            claro.
+          </li>
+          <li>
+            💪 <strong>Resiliência:</strong> supero obstáculos com aprendizado
+            constante.
+          </li>
+        </ul>
+      </div>
+
+      <!-- SOCIAL LINKS -->
+      <div id="social-links" class="page-social">
+        <a href="https://github.com/DaniloLucaxs" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="https://instagram.com/dannl______/" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="https://linkedin.com/in/danilolucaswork/" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      Desenvolvido por
+      <a href="https://linkedin.com/in/danilolucaswork/" target="_blank"
+        >Danilo</a
+      >
+    </footer>
+
+    <!-- JS -->
+    <script src="./script.js"></script>
+  </body>
+</html>
