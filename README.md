@@ -1,7 +1,8 @@
 <h1 align="center">💻 DevLinks - Danilo Lucas</h1>
 
 <p align="center">
-  <img src="./assets/preview.png" width="400" alt="Preview do projeto">
+  <img src="./assets/dark.png" width="400" alt="Preview do projeto">
+  <img src="./assets/branco.png" width="400" alt="Preview do projeto">
 </p>
 
 <p align="center">
@@ -22,22 +23,12 @@ Permite alternar entre **modo claro e escuro**, com design responsivo e animaç�
 - HTML5
 - CSS3 (variáveis, flexbox e animações)
 - JavaScript (DOM e modo dark/light)
-- Ionicons (ícones)
 
----
 
-### 📸 Preview
-
-<p align="center">
-  <img src="./assets/preview-dark.png" width="45%">
-  <img src="./assets/preview-light.png" width="45%">
-</p>
-
----
 
 ### 🔗 Acesse o projeto
 
-👉 [Clique aqui para ver online](https://danilolucaxs.github.io/portfolio-rocketseat/)
+👉 [Clique aqui para ver online](https://danilolucaxs.github.io/portfolio-danilo/)
 
 ---
 
